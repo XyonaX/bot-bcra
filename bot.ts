@@ -63,6 +63,7 @@ const verificarYPublicar = async () => {
             await publicarTweet(mensaje);
         }
         ultimaReserva = reservas.valor;
+        console.log("Ultima reserva actualizada:", ultimaReserva);
     }
 };
 

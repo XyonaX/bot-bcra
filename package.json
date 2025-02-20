@@ -1,9 +1,10 @@
 {
   "name": "twitter-brca-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bot.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node bot.ts"
   },
   "keywords": [],
   "author": "",
